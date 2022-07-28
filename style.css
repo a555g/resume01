@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,600&family=Roboto:ital@0;1&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 50;
+}    */
+
+.inst{
+    width: 100px;
+    height: 100px;
+}
+
+img{
+    margin-right: 10px;
+    height: 270px;
+    width: 223px;
+    
+}
+
+.info{
+    display: flex;
+    
+    
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+@media(max-width:650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+body{
+    font-family: Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: #ffddc9;
+    
+}
+.card{
+    border: 4px solid rgb(163, 106, 73);
+    border-radius: 5px;
+    background-color: #bd8869;
+    margin: 25px;
+    padding-left: 10px;
+    
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+
+
+h1 {
+    border-width: 4px;
+    border-color: rgb(163, 106, 73);
+    border-style: solid;
+    background-color: #bd8869;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.connection{
+    padding-left: 15px;
+}
+
+.email{
+    padding-top: 5px;
+}
+.message{
+    padding-top: 5px;
+}

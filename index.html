@@ -9,22 +9,32 @@
     Краткое описание">
     <title>Resume</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <img src="foto.jpg" alt="тут моя фоточка" width="150">
+    <div class="container">
+    <div class="info">
+    <img src="foto.jpg" alt="тут моя фоточка" >
+    <div class="info-text">
     <h1>Гусейнов Алигусейн Полатович</h1>
     <p><strong><em>Учусь на 2 курсе колледжа, на специальность 
         разработчик програмного обеспечение.
     </em> </strong></p>
 
-    <hr>
 
+    <h2> Соц.сети</h2>
+    <a class="btn" href="https://instagram.com/a555g_"><img class="inst" src="logo.webp" alt="" width="50"></a>
+    </div>
+    </div>
+    <div class="card ">
     <h2>Мои хобби</h2>
-
+ 
     <ol>
         <li>Путешествие</li>
         <li>Спорт</li>
         <li>Крипта</li>
     </ol>
+    </div>
+    <div class="card">
     <h3>Опыт работы</h3>
     <table>
         <tr>
@@ -41,24 +51,31 @@
             <td>1 месяц</td>
         </tr>
     </table>
-    <h2>Связаться со мной</h2>
-    <div>
-        <label for="text">Ваше имя:</label>
+    </div>
+    <div class="card">
+    <h2 >Связаться со мной</h2>
+    <div class="connection">
+    <div class="name">
+        <label for="text"><li> Ваше имя:</li></label>
         <input type="text" id="text" placeholder="Введите имя">
     </div>
-    <div>
-        <label for="email">Ваш email:</label>
+    <div class="email">
+        <label for="email"><li>Ваш email:</li></label>
         <input type="email" id="email"
          placeholder="Введите email">
     </div>
     
-    <div>
-        <label for="message">Ваше сообщение</label>
+    <div class="message">
+        <label for="message"><li> Ваше сообщение</li></label>
         <br>
-        <textarea  id="message" cols="15" rows="5"></textarea>
+        <textarea  id="message" cols="15" rows="5"
+        placeholder="Введите сообщение "></textarea>
     </div>
 
-    <button type="submit">Отправить</button>
+    <button class="btn" type="submit">Отправить</button>
+    </div>
+    </div>
+    </div>
 
 </body>
-</html>
+</html> 
